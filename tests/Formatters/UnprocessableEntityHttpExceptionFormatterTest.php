@@ -1,7 +1,7 @@
 <?php
 
-use Optimus\Heimdal\Formatters\UnprocessableEntityHttpExceptionFormatter;
-use Optimus\Heimdal\ResponseFactory;
+use Andreacivita\Heimdal\Formatters\UnprocessableEntityHttpExceptionFormatter;
+use Andreacivita\Heimdal\ResponseFactory;
 use Orchestra\Testbench\TestCase;
 use Symfony\Component\HttpKernel\Exception\UnprocessableEntityHttpException;
 
