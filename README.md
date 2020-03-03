@@ -2,9 +2,13 @@
 
 [![Latest Version](https://img.shields.io/github/release/esbenp/heimdal.svg?style=flat-square)](https://github.com/esbenp/heimdal/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build Status](https://img.shields.io/travis/esbenp/heimdal/master.svg?style=flat-square)](https://travis-ci.org/esbenp/heimdal)
+[![Build Status](https://img.shields.io/travis/esbenp/heimdal/master.svg?style=flat-square)](https://travis-ci.org/andreacivita/heimdal)
 [![Coverage Status](https://img.shields.io/coveralls/esbenp/heimdal.svg?style=flat-square)](https://coveralls.io/github/esbenp/heimdal)
 [![Total Downloads](https://img.shields.io/packagist/dt/Andreacivita/heimdal.svg?style=flat-square)](https://packagist.org/packages/Andreacivita/heimdal)
+
+
+This project is a fork of [esbenp/heimdal](https://github.com/esbenp/heimdal/releases). 
+Purpose of this fork is support Laravel 6+ version. All credits goes to [Esbenp](https://github.com/esbenp)
 
 ## Introduction
 
@@ -19,7 +23,7 @@ have [guidelines for how errors should be formatted](http://jsonapi.org/format/#
 ## Installation
 
 ```bash
-composer require Andreacivita/heimdal ~1.0
+composer require andreacivita/heimdal ~1.0
 ```
 
 Add the service provider to `config/app.php`
