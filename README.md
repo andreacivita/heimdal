@@ -1,6 +1,6 @@
 # Heimdal
 
-[![Latest Version](https://img.shields.io/github/release/esbenp/heimdal.svg?style=flat-square)](https://github.com/esbenp/heimdal/releases)
+[![Latest Version](https://img.shields.io/github/release/andreacivita/heimdal.svg?style=flat-square)](https://github.com/andreacivita/heimdal/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 [![Build Status](https://img.shields.io/travis/esbenp/heimdal/master.svg?style=flat-square)](https://travis-ci.org/andreacivita/heimdal)
 [![Coverage Status](https://img.shields.io/coveralls/esbenp/heimdal.svg?style=flat-square)](https://coveralls.io/github/esbenp/heimdal)
