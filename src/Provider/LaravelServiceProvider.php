@@ -19,7 +19,7 @@ class LaravelServiceProvider extends BaseProvider {
     private function registerAssets()
     {
         $this->publishes([
-            __DIR__.'/../config/Andreacivita.heimdal.php' => config_path('Andreacivita.heimdal.php')
+            __DIR__.'/../config/andreacivita.heimdal.php' => config_path('andreacivita.heimdal.php')
         ]);
     }
 
