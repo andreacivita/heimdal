@@ -1,10 +1,10 @@
 <?php
 
-namespace Optimus\Heimdal\Formatters;
+namespace Andreacivita\Heimdal\Formatters;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
-use Optimus\Heimdal\Formatters\ExceptionFormatter;
+use Andreacivita\Heimdal\Formatters\ExceptionFormatter;
 
 class HttpExceptionFormatter extends ExceptionFormatter
 {
