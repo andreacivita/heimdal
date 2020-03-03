@@ -30,7 +30,7 @@ class ExceptionHandlerTest extends TestCase {
     {
         parent::setUp();
 
-        app()['config']->set('Andreacivita.heimdal', getConfigStub());
+        app()['config']->set('andreacivita.heimdal', getConfigStub());
     }
 
     /**
@@ -84,7 +84,7 @@ class ExceptionHandlerTest extends TestCase {
 
     public function testRendersAppropriateFormatter()
     {
-        app()['config']->set('Andreacivita.heimdal.formatters', [
+        app()['config']->set('andreacivita.heimdal.formatters', [
             HttpException::class => HttpExceptionFormatter::class,
             Exception::class => ExceptionFormatter::class
         ]);

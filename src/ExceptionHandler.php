@@ -29,7 +29,7 @@ class ExceptionHandler extends LaravelExceptionHandler
     {
         parent::__construct($container);
 
-        $this->config = $container['config']->get('Andreacivita.heimdal');
+        $this->config = $container['config']->get('andreacivita.heimdal');
         $this->debug = $container['config']->get('app.debug');
     }
 

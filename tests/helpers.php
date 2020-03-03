@@ -19,7 +19,7 @@ class TestReporter implements ReporterInterface
 
 function getConfigStub()
 {
-    $config = require __DIR__.'/../src/config/Andreacivita.heimdal.php';
+    $config = require __DIR__.'/../src/config/andreacivita.heimdal.php';
 
     $reporterMock = \Mockery::mock('ReporterClass');
 

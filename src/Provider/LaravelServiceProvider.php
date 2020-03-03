@@ -25,8 +25,8 @@ class LaravelServiceProvider extends BaseProvider {
 
     private function loadConfig()
     {
-        if ($this->app['config']->get('Andreacivita.heimdal') === null) {
-            $this->app['config']->set('Andreacivita.heimdal', require __DIR__.'/../config/Andreacivita.heimdal.php');
+        if ($this->app['config']->get('andreacivita.heimdal') === null) {
+            $this->app['config']->set('andreacivita.heimdal', require __DIR__.'/../config/andreacivita.heimdal.php');
         }
     }
 

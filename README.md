@@ -75,7 +75,7 @@ Heimdal has two things that should be configured: formatters and reporters.
 
 You should determine where your exceptions should be reported to. Heimdal still calls the base report function in Laravel, so your
 exceptions will still be logged as normal. However, adding external reporting is easy. Heimdal comes with Sentry integration out of the box.
-To send exceptions to Sentry simply add this entry to the `reporters` section in `config/Andreacivita.heimdal.php`
+To send exceptions to Sentry simply add this entry to the `reporters` section in `config/andreacivita.heimdal.php`
 
 ```php
 'sentry' => [
@@ -112,7 +112,7 @@ class BugsnagReporter implements ReporterInterface
 }
 ```
 
-And then add it to `config/Andreacivita.heimdal.php`
+And then add it to `config/andreacivita.heimdal.php`
 
 ```php
 'bugsnag' => [
@@ -125,7 +125,7 @@ And then add it to `config/Andreacivita.heimdal.php`
 
 ### Formatters
 
-Heimdal already comes with sensible formatters out of the box. In `config/Andreacivita.heimdal.php` is a section where
+Heimdal already comes with sensible formatters out of the box. In `config/andreacivita.heimdal.php` is a section where
 the formatter priority is defined.
 
 ```php
@@ -180,7 +180,7 @@ class NotFoundHttpExceptionFormatter extends BaseFormatter
 ```
 
 Notice how easily we used `$reporterResponses` to attach the ID of the Sentry log to the JSON response.
-Now we simply add it to `config/Andreacivita.heimdal.php`
+Now we simply add it to `config/andreacivita.heimdal.php`
 
 ```php
 'formatters' => [
@@ -197,7 +197,7 @@ Now all `NotFoundHttpException`s will be formatted using our custom formatter.
 
 ### [Sentry](https://getsentry.com)
 
-To send Exceptions to Sentry add the following reporter configuration in `config/Andreacivita.heimdal.php`.
+To send Exceptions to Sentry add the following reporter configuration in `config/andreacivita.heimdal.php`.
 
 ```
 'reporters' => [
@@ -267,7 +267,7 @@ For this you can add the `add_context` key to the `config` array. Below is an ex
 
 [Install Bugsnag using the Laravel installation guide](https://docs.bugsnag.com/platforms/php/laravel/)
 
-To send Exceptions to Bugsnag add the following reporter configuration in `config/Andreacivita.heimdal.php`.
+To send Exceptions to Bugsnag add the following reporter configuration in `config/andreacivita.heimdal.php`.
 
 ```
 'reporters' => [
@@ -280,7 +280,7 @@ To send Exceptions to Bugsnag add the following reporter configuration in `confi
 
 ### [Rollbar](https://rollbar.com)
 
-To send Exceptions to Rollbar add the following reporter configuration in `config/Andreacivita.heimdal.php`.
+To send Exceptions to Rollbar add the following reporter configuration in `config/andreacivita.heimdal.php`.
 
 ```
 'reporters' => [
