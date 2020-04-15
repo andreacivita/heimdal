@@ -1,4 +1,4 @@
-# Heimdal
+# Heimdal [WiP]
 
 [![Latest Stable Version](https://poser.pugx.org/andreacivita/heimdal/v/stable)](https://packagist.org/packages/andreacivita/heimdal)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
